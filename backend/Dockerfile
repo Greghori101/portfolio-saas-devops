@@ -24,5 +24,5 @@ RUN composer install --no-interaction --prefer-dist \
     && cp .env.example .env \
     && php artisan key:generate
 
-EXPOSE 9000
+EXPOSE 8000
 CMD ["php-fpm"]
